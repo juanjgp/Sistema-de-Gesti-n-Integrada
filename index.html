@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto final curso HTM y CSS Mastermind</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/styles.css">
+    <script src="https://kit.fontawesome.com/fa4e7fcdb1.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!--Menú navegación-->
+    <nav id="barra">
+        <h1>SGI</h1>
+        <ul>
+            <li><a href="#soy_yo">Este soy yo</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+            <li><a href="#pie">Acerca de...</a></li>
+        <ul/>
+    </nav>
+    <!--FIN Menú navegación-->
+    <!--Cabecera-->
+    <header id="cabecera">
+        <h1>Sistema de gestión integrada</h1>
+    </header>
+    <!--FIN Cabecera-->
+    <!--Sección antecedentes-->
+    <section id="antecedentes">
+        <h2>Antecedentes</h2>
+    <div class="container_antecedentes">
+        <p>En varias empresas cada uno de los departamentos, tiene un sistema para almacenar y tratar los datos.
+        Por ejemplo, un departamento utiliza hojas de Google Sheets, otro utiliza Excel, otro un programa distinto de terceros, etc.
+        El sistema de gestión integrada SGI pretende unificar en una empresa todos estos archivos en un entorno único para el trabajo conjunto.
+        En el video que se encuentra en esta sección se explica el ejemplo de una empresa que utiliza archivos separados y lo que se propone.</p>
+        <video controls width="300">
+            <source src="./media/sistema.mp4" type="video/webm">
+        </video>
+    </div>
+    </section>
+    <!--FIN Sección antecedentes-->
+    <!--Sección funcionamiento-->
+    <section id="funcionamiento">
+        <h2>Funcionamiento ejemplo empresa</h2>
+        <div class="estructura">
+            <div class="departamento">
+                <img src="/imagen/produccion.jpg" alt="produccion" width="200px" height="200px">
+                <h3>Departamento producción</h3>
+                <h4>Anota el proceso del crecimiento del champiñón</h4>
+                <div class="sep"></div>
+                <p>Usa una hoja Excel para anotar condiciones de crecimiento Tª, Humedad...</p>
+                <div class="ver1"><button type="button">VER</button></div>
+            </div>
+            <div class="departamento">
+                <img src="/imagen/recoleccion.jpg" alt="recoleccion" width="200px" height="200px">
+                <h3>Departamento recolección</h3>
+                <h4>Recolecta y anota los envases de productos</h4>
+                <div class="sep"></div>
+                <p>Usa una hoja Excel para anotar los envases y las cantidades recolectadas. Distinta hoja que producción.</p>
+                <h5>Problema: si hay producto defectuoso, para consultar las condiciones debe usar la otra hoja Excel de producción</h4>
+                <div class="ver"><button type="button">VER</button></div>
+            </div>
+            <div class="departamento">
+                <img src="/imagen/almacen.jpg" alt="almacen" width="200px" height="200px">
+                <h3>Departamento almacén</h3>
+                <h4>Anota el stockaje de envases obtenidos en la recolección</h4>
+                <div class="sep"></div>
+                <p>Usa una hoja de Google Sheet para anotar stock</p>
+                <h5>Problema: debe consultar la hoja Excel de recolección para comprobar y regular el stock</h4>
+                <div class="ver2"><button type="button">VER</button></div>
+            </div>
+            <div class="departamento">
+                <img src="/imagen/comercial.png" alt="comercial" width="200px" height="200px">
+                <h3>Departamento comercial</h3>
+                <h4>Anota los pedidos de los clientes y los envia a almacén para prepararlos</h4>
+                <div class="sep"></div>
+                <p>Usa una hoja de Google Sheet para anotar los pedidos pendientes y completados</p>
+                <h5>Problema: debe consultar la hoja de stock en otro fichero para comprobar y regular el pedido con el stock</h4>
+                <div class="ver"><button type="button">VER</button></div>
+            </div>
+    </section>
+    <!--FIN Sección funcionamiento-->
+    <!--Sección distribución de datos-->
+    <section id="datos">
+        <h2>Distribución de datos</h2>
+        <div class="datos1">
+            <img src="/imagen/base.jpg" alt="comercial" width="400px" height="300px">
+            <h3>Como se muestra en la imagen a modo de esquema. Todas las secciones acceden a la misma base de datos o entorno de trabajo y trabajan todos sobre la misma.</h3>
+            <h3>Esta se encuentra alojada en un servidor central, de manera que los datos de cada sección se encuentran actualizados y listos para su tratamiento.</h3>
+        </div>
+    </section>
+    <!--FIN Sección distribución de datos-->
+    <!--Sección nuevas u otras funcionalidades-->
+    <section id="funcionalidades">
+        <h2>Nuevas u otras funcionalidades</h2>
+        <div class="funcionalidades1">
+        <h3>Este proyecto puede servir para cualquier actividad que consista en una cadena o ciclo de un producto o servicio.</h3>
+        <h3>También puede tener nuevas funciones como: </h3>
+        <p>Gestión de recursos humanos: almacenamiento de trabajadores y departamentos.</p>
+        <p>Bases de datos de maquinaria utilizada en la empresa...</p>
+        <p>Si se os ocurren nuevas propuestas no dudeis en contactar en el apartado de contactos.</p>
+    </div>
+    </section>
+    <!--FIN Sección nuevas u otras funcionalidades-->
+    <!--Sección este soy yo-->
+    <section id="soy_yo">
+    <h2>Este soy yo</h2>
+        <div class="container_yo">
+            <img src="./imagen/yo.PNG" alt="Foto yo" height="250px">
+            <p>Ingeniero industrial y técnico de producción de champiñón. Estudiante de informática y encargado de la sección nuevas tecnologías.</p>
+            <h3>Redes sociales: </h3>
+            <div class="redes">
+                <a href="https://github.com/dashboard" target="_blank" id="rednegro"><i id="icono" class="fa-brands fa-github"></i></a>
+                <a href="https://codepen.io/your-work" target="_blank" id="rednegro"><i id="icono" class="fa-brands fa-codepen"></i></a>
+                <a href="https://es.linkedin.com/" target="_blank" id="redazul"><i id="linkedln" class="fa-brands fa-linkedin"></i></a>
+                <a href="https://www.facebook.com/juanjose.gonzalezpardo"target="_blank" id="redazul"><i id="linkedln" class="fa-brands fa-facebook"></i></a>
+                <a href="https://www.instagram.com/juanjgp8/" target="_blank" id="instagram"><i id="instagram" class="fa-brands fa-square-instagram"></i></a>
+                <a href="https://twitter.com/JJose8811" target="_blank" id="rednegro"><i id="icono" class="fa-brands fa-x-twitter"></i></a>
+            </div>
+        </div>
+    </section>
+    <!--FIN Sección este soy yo-->
+    <!--Sección contacto-->
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <div class="contacto1">
+            <h3>Contacto para pedido, dudas o nuevas propuestas o funcionalidades</h3>
+            <form action="enviar">
+                <div class="formulario">
+                    <label for="nombre">Nombre</label>
+                    <input type="text" id="nombre" name="nombre" minlength="3" max="15" size="15" required>
+                </div>
+                <div class="formulario">
+                    <label for="nombre">Corporación</label>
+                    <input type="text" id="corporacion" name="corporacion" minlength="5" max="40" size="50">
+                </div>
+                <div class="formulario">
+                    <label for="nombre">Departamento</label>
+                    <input type="text" id="departamento" name="departamento" minlength="4" max="30" size="40">
+                </div>
+                <div class="formulario">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" minlength="10" max="100" size="20" required>
+                </div>
+                <div class="formulario">
+                    <label for="asunto">Asunto</label>
+                    <select name="asunto" id="asunto">
+                        <option value="">--Elige un asunto--</option>
+                        <option value="">Pedido</option>
+                        <option value="">Dudas</option>
+                        <option value="">Nuevas propuestas</option>
+                        <option value="">Otro. Indícalo en el mensaje a continuación</option>
+                    </select>
+                </div>
+                <div class="formulario">
+                    <label for="mensaje">Mensaje</label>
+                    <textarea type="mensaje" id="mensaje" name="mensaje" cols="33" rows="5"></textarea>
+                </div>
+                <div class="formulario">
+                    <input type="submit" name="boton" value="Enviar">
+                </div>
+            </form>
+        </div>
+    </section>
+    <!--FIN Sección contacto-->
+    <!--Footer-->
+    <footer id="pie">
+        <ul>
+            <li>Copyright 2024</li>
+            <li>Juan José Corporation</li>
+            <li>Términos</li>
+            <li>Privacidad</li>
+        </ul>
+    </footer>
+    <!--FIN de footer-->
+</body>
+</html>

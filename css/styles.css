@@ -1,0 +1,259 @@
+/* Reset de página */
+* {
+    margin: 0%;
+    padding: 0%;
+  }
+/* FIN Reset de página
+/* Generales */
+body{
+    background-color: #B3DE81;
+    font-family: "Kanit", sans-serif;
+}
+h2{
+    color: #222;
+    text-align: center;
+    border-bottom: 4px solid #FDFFFF;
+    background-color: darkseagreen;
+}
+/* Menú navegación */
+#barra{
+    position: fixed;
+    width: 100%;
+    height: 40px;
+    background-color: #222;
+    padding-left: 200px;
+    border-bottom: 4px solid #FDFFFF;
+}
+#barra h1{
+    color: #FDFFFF;
+    float: left;
+}
+#barra ul{
+    margin-top: 8px;
+    list-style: none;
+    color: #FDFFFF;
+    float: left;
+    margin-left: 60%;
+}
+#barra ul li{
+    padding-left: 20px;
+    float: left;
+}
+a {
+    text-decoration: none;
+  }
+  a:any-link {
+    color: white;
+  }
+  a:-webkit-any-link {
+    color: white;
+  }
+  a:-moz-any-link {
+    color: white;
+  }
+  a:hover {
+    color: chartreuse;
+  }
+/* FIN Menú navegación */
+/* Cabecera */
+#cabecera{
+    padding-top: 60px;
+    padding-bottom: 20px;
+    color:white;
+    text-align: center;
+    background-color: #265C00;
+}
+/* FIN Cabecera */
+/* Sección antecedentes */
+#antecedentes{
+    border-top: 4px solid #FDFFFF;
+}
+#antecedentes p{
+    margin-top: 20px;
+    margin-left: 10%;
+    width: 40%;
+}
+#antecedentes video{
+    margin-right: 10%;
+    border: 5px solid #222;
+    border-radius: 10px;
+}
+.container_antecedentes{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+/* FIN Sección antecedentes */
+/* Sección funcionamiento */
+#funcionamiento{
+    border-top: 4px solid #FDFFFF;
+}
+.estructura{
+    display: flex;
+    gap: 100px 100px;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+.departamento{
+    width: 300px;
+    background-color: #265C00;
+    border-radius: 15px;
+    text-align: center;
+    padding: 20px 20px 20px 20px;
+}
+.departamento img{
+    border: 5px solid #222;
+    border-radius: 15px;
+}
+.departamento h3,
+.departamento h4,
+.departamento p{
+    padding: 10px 10px;
+    color:white;
+}
+.departamento h5{
+    color:lightcoral;
+    font-size: 700;
+    padding: 10px;
+
+}
+.departamento button{
+  background-color:darkseagreen;
+  font-weight: 600;
+  padding: 5px 40px;
+  border-radius: 5px;
+}
+.ver1{
+    margin-top: 80px;
+}
+.ver2{
+    margin-top: 20px;
+}
+/* FIN Sección funcionamiento */
+/* Sección distribución de datos */
+#datos{
+    border-top: 4px solid #FDFFFF;
+    text-align: center;
+}
+#datos img{
+    border: 5px solid #222;
+    border-radius: 15px;
+}
+.datos1{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+/* FIN Sección distribución de datos */
+/* Sección nuevas u otras funcionalidades */
+#funcionalidades{
+    border-top: 4px solid #FDFFFF;
+}
+#funcionalidades h2,
+#funcionalidades h3,
+#funcionalidades p{
+    text-align: center;
+}
+.funcionalidades1{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+/* FIN Sección nuevas u otras funcionalidades */
+/* Sección soy yo */
+#soy_yo{
+    border-top: 4px solid #FDFFFF;
+}
+.container_yo{
+    display: grid;
+    grid-template-columns: repeat(4, 200px);
+    justify-content: center;
+    grid-gap: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.container_yo p{
+    padding-top: 20%;
+}
+.container_yo h3{
+    padding-top: 50%;
+    padding-left: 30%;
+}
+.redes{
+    padding-top: 50%;
+}
+.redes a{
+    margin-left: 5px;
+    font-size: 20px;
+}
+.redes #rednegro:hover{
+    color: #222;
+}
+.redes #redazul:hover{
+    color: cornflowerblue;
+}
+.redes #instagram:hover{
+    color:deeppink;
+}
+/* FIN Sección soy yo */
+/* Contacto */
+#contacto{
+    background-color: #265C00;
+    border-top: 4px solid #FDFFFF;
+    padding-bottom: 5px;
+}
+#contacto h3{
+    margin-left: 15%;
+    color: #FDFFFF;
+    font-weight: 700;
+}
+.contacto1{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.formulario{
+    display: grid;
+    grid-template-columns: 130px 300px;
+    justify-content: right;
+    margin-right: 15%;
+    margin-bottom: 10px;
+}
+.formulario label{
+    color: #FDFFFF;
+    font-weight: 700;
+}
+.formulario input,
+.formulario textarea,
+.formulario select{
+  border-radius: 7px;
+  border: 3px solid #222;
+}
+input[type="submit"]{
+    background-color: #B3DE81;
+    font-weight: 900;
+    grid-column: 2/3;
+    justify-self: center;
+    padding: 5px 25px;
+}
+/* FIN Contacto */
+/* Footer */
+#pie{
+    background-color: #222;
+    border-top: 4px solid #FDFFFF;
+    float: left;
+    width: 100%;
+}
+#pie ul{
+    list-style: none;
+    color: white;
+    float: left;
+}
+#pie ul li{
+    padding: 20px;
+    float:left
+}
+#pie ul li:hover{
+    color: #B3DE81;
+}
+/* FIN Footer */
