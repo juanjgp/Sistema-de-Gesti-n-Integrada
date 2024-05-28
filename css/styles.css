@@ -24,9 +24,11 @@ h2{
     padding-left: 200px;
     border-bottom: 4px solid #FDFFFF;
 }
-#barra h1{
+#barra h2{
     color: #FDFFFF;
     float: left;
+    background-color: #222;
+    border-bottom: 4px solid #222;
 }
 #barra ul{
     margin-top: 8px;
@@ -190,7 +192,16 @@ a {
 .redes #rednegro:hover{
     color: #222;
 }
+.redes #rednegro1:hover{
+    color: #222;
+}
+.redes #rednegro2:hover{
+    color: #222;
+}
 .redes #redazul:hover{
+    color: cornflowerblue;
+}
+.redes #redazul1:hover{
     color: cornflowerblue;
 }
 .redes #instagram:hover{
